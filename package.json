@@ -1,0 +1,22 @@
+{
+  "name": "api-bridge-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Sabrine Ben Sassi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.22.0",
+    "jest": "^29.7.0"
+  }
+}
